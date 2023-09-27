@@ -1,0 +1,39 @@
+@media screen and (min-width: 200px) and (max-width: 1200px) {
+    body {
+        width: 90%;
+    }
+}
+h1 
+{
+    margin: auto;
+    padding: auto;
+}
+
+.grandtitre
+{
+    width: 1200px;
+}
+
+input 
+{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    width: 240px;
+    height: 25px;
+    text-align: center;
+}
+input:hover
+{
+    border: 3px solid #da3131;
+}
+
+input[type="submit"]
+{
+   cursor: pointer;
+}
+
+#retour 
+{
+    cursor: pointer;
+}

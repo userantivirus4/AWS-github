@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+ }
+
+ body
+ {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+ }
+  /* propriete du texte ajouter qui devient bouton */
+ .boutonajouter {
+    width: fit-content;
+    margin-bottom: 20px;
+    color: white;
+    text-align: 0;
+    padding: 5px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #da3131;
+    text-decoration: none;
+ }
+  /* propriete de l'image plus a cote du texte ajouter */
+ .boutonajouter img
+ { 
+     margin-right: 5px;
+     height: 20px;
+
+ }
+
+    /*proprite du tableau */
+
+ table
+ {
+    border-collapse: collapse;
+    color:rgb(10, 7, 7);
+ }    
+
+ th
+ {
+    font-size: 25px;
+    border-bottom: 4px solid #da3131;
+    padding: 5px 25px;
+    font-weight: 600;
+ }
+
+ td
+ {
+    font-size: 20px;
+    padding: 5px 20px;
+    font-weight: 500;
+    text-align: center;
+ }
+
+ img
+ {
+    height: 20px;
+ }
+
+ tr:nth-child(2n)
+ {
+    background-color: rgba(218, 16, 9, 0.062);
+ }
+
+ tr:nth-child(2n) td
+ {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+ }
+/*css de la page formulaire */
+.titresimplon
+{
+    font-size: 70px;
+    text-align: center;
+    color: #da3131;
+    font-weight: 600;
+    position: relative;bottom: 200px;
+}
+
+.logosimplon 
+{
+    position: relative;bottom: 180px;
+    height: fit-content;
+}
+
+h1 
+{
+    margin: auto;
+    padding: auto;
+}
+
+.grandtitre
+{
+    width: 1200px;
+}
